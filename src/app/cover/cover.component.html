@@ -1,0 +1,19 @@
+<div class="layout__wrapper">
+    <div class="quset-cover cover-start service-bg">
+        <div class="block__table">
+            <div class="block__cell">
+                <div class="start__text">
+                    <div class="start__name">{{ cover?.header }}</div>
+                    <div class="start__info">{{ cover?.lead }}</div>
+                </div>
+                <div *ngIf="cover?.image" class="start__envelope">
+                    <div class="start__svg"></div>
+                    <div class="start__count"></div>
+                </div>
+                <div class="start__button">
+                    <a class="start__link" href="{{ cover?.button.url }}">{{ cover?.button.text }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

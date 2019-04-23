@@ -1,2 +1,2 @@
-# vmquest
-Simple Angular quest
+# angularQuest
+A little angular quest.
